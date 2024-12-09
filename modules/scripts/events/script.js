@@ -3,7 +3,7 @@ module.exports.config = {
   author: 'Yan Maglinte',
   version: '1.0',
   description: 'Allows you to input code here without the need for prefixes or names; it will execute automatically.',
-  selfListen: false,
+  selfListen: true,
 };
 
 let enter = false;
