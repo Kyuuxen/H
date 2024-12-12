@@ -1,5 +1,5 @@
 const axios = require('axios');
-const { sendMessage } = require('../website/message'); // Adjust the path as necessary
+const { sendMessage } = require('/website/message.js'); // Adjust the path as necessary
 
 module.exports = {
   name: 'detect',
